@@ -1,0 +1,1 @@
+%windir%\system32\control.exe /name Microsoft.PowerOptions /page  pageGlobalSettings
