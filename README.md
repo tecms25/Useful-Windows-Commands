@@ -1,0 +1,1 @@
+This is a collection of useful commands that do things like launch into classic control panel areas. Since Microsoft wants to put idiot covers on settings menus, we have to find a way to properly administer systems.
