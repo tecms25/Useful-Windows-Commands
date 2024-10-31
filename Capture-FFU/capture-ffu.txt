@@ -1,0 +1,12 @@
+Run DISM Capture to get FFU:
+
+DISM /capture-ffu /imagefile=x:\WinOEM.ffu /capturedrive=\\.\PhysicalDrive0 /name:disk0 /description:"Windows FFU"
+
+DISM /Optimize-FFU /ImageFile:x:\WinOEM.ffu
+
+DISM /Get-ImageInfo /ImageFile:x:\WinOEM.ffu
+
+
+To apply FFU to drive:
+
+DISM /Apply-FFU /ImageFile:x:\WinOEM.ffu /ApplyDrive:\\.\PhysicalDrive0
